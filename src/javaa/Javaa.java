@@ -43,8 +43,12 @@ public class Javaa {
         if (rataPKN >= 70 && rataPKN <= 75) {
         System.out.println("Grade anda adalah C");}
         
-        else {
+        if (rataPKN < 50){
         System.out.println("Mohon Maaf, anda tidak naik kelas");}
+        
+        else if(rataPKN >= 50){
+        System.out.println("Anda naik kelas");    
+        }
         
         System.out.println(" ");
         
